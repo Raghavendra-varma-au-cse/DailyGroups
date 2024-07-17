@@ -2,6 +2,7 @@ import Link from "next/link"
 import { Card, CardContent } from "@/components/ui/card"
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar"
 import {TwitterIcon, LinkedinIcon, GitlabIcon } from "@/components/icons/page"
+import Image from "next/image"
 
 export default function Component() {
   return (
@@ -39,7 +40,7 @@ export default function Component() {
                 </div>
               </div>
               <div className="relative h-[500px] overflow-hidden rounded-lg">
-                <img src="/placeholder.svg" alt="About Us Image" fill className="object-cover" />
+                <Image src="/placeholder.svg" alt="About Us Image" className="object-cover"/>
               </div>
             </div>
           </div>

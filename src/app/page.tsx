@@ -1,6 +1,7 @@
 import Link from "next/link"
 import { Card, CardContent } from "@/components/ui/card"
 import { UserIcon, CalendarIcon } from "@/components/icons/page"
+import Image from "next/image"
 
 export default function Component() {
   return (
@@ -9,7 +10,7 @@ export default function Component() {
         <section className="relative w-full bg-muted py-12 md:py-24 lg:py-32">
           <div className="container grid grid-cols-1 gap-6 px-4 md:grid-cols-2 md:gap-8 lg:grid-cols-2 lg:px-8">
             <div className="relative h-[500px] overflow-hidden rounded-lg">
-              <img src="/placeholder.svg" alt="Hero Image" fill className="object-cover" />
+              <Image src="/placeholder.svg" alt="Hero Image" className="object-cover" />
               <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-6">
                 <h1 className="text-3xl font-bold text-white md:text-4xl lg:text-5xl">
                   Revolutionize Your Business with Our Startup Blog
@@ -37,7 +38,7 @@ export default function Component() {
             </div>
             <div className="grid gap-6">
               <div className="relative h-[250px] overflow-hidden rounded-lg">
-                <img src="/placeholder.svg" alt="Featured Article 1" fill className="object-cover" />
+                <Image src="/placeholder.svg" alt="Featured Article 1" className="object-cover" />
                 <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-4">
                   <h2 className="text-xl font-bold text-white md:text-2xl">
                     The Rise of No-Code: Empowering Entrepreneurs to Build Their Dreams
@@ -45,7 +46,7 @@ export default function Component() {
                 </div>
               </div>
               <div className="relative h-[250px] overflow-hidden rounded-lg">
-                <img src="/placeholder.svg" alt="Featured Article 2" fill className="object-cover" />
+                <Image src="/placeholder.svg" alt="Featured Article 2" className="object-cover" />
                 <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-4">
                   <h2 className="text-xl font-bold text-white md:text-2xl">
                     The Future of Remote Work: Insights from Industry Leaders
@@ -66,7 +67,7 @@ export default function Component() {
             <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
               <Card>
                 <CardContent>
-                  <img
+                  <Image
                     src="/placeholder.svg"
                     alt="Article 1"
                     width={400}
@@ -96,7 +97,7 @@ export default function Component() {
               </Card>
               <Card>
                 <CardContent>
-                  <img
+                  <Image
                     src="/placeholder.svg"
                     alt="Article 2"
                     width={400}
@@ -124,7 +125,7 @@ export default function Component() {
               </Card>
               <Card>
                 <CardContent>
-                  <img
+                  <Image
                     src="/placeholder.svg"
                     alt="Article 3"
                     width={400}
@@ -166,7 +167,7 @@ export default function Component() {
             <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
               <Card>
                 <CardContent>
-                  <img
+                  <Image
                     src="/placeholder.svg"
                     alt="Startup 1"
                     width={400}
@@ -192,7 +193,7 @@ export default function Component() {
               </Card>
               <Card>
                 <CardContent>
-                  <img
+                  <Image
                     src="/placeholder.svg"
                     alt="Startup 2"
                     width={400}
@@ -218,7 +219,7 @@ export default function Component() {
               </Card>
               <Card>
                 <CardContent>
-                  <img
+                  <Image
                     src="/placeholder.svg"
                     alt="Startup 3"
                     width={400}

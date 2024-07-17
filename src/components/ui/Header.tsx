@@ -18,10 +18,10 @@ export default function Header() {
             <Link href="aboutus" className="text-sm font-medium hover:underline" prefetch={false}>
               About Us
             </Link>
-            <Link href="#" className="text-sm font-medium hover:underline" prefetch={false}>
+            <Link href="articles" className="text-sm font-medium hover:underline" prefetch={false}>
               Articles
             </Link>
-            <Link href="#" className="text-sm font-medium hover:underline" prefetch={false}>
+            <Link href="contactus" className="text-sm font-medium hover:underline" prefetch={false}>
               Contact
             </Link>
           </nav>
